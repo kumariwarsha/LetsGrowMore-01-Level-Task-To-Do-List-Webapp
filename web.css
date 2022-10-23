@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(226, 170, 170);
+    margin-top: 15%;
+    text-align: center;
+  }
+  
+  #top{
+      background-color: brown;
+      color: aliceblue;
+     
+  }
+  
+  #save{
+      margin-top: 35px;
+      width: 100%;
+      height: 26px;
+      background-color: rgb(3, 150, 3);
+      border-radius: 10px;
+      /* font-size: 15px; */
+   }
+   #first{
+      width:300px ;
+      border-radius: 7px;
+   }
+   #second{
+      width: 300px;
+      border-radius: 7px;
+      height: 290px;
+   }
+  
+  #all{
+      background-color: rgb(4, 131, 131);
+      margin-left: 200px;
+      margin-right:200px;
+      border-radius: 7px;
+      /* height: 500px; */
+  
+  } 
+  #heading{
+      border-radius: 8px;
+      width: 500px;
+      /* color: rgb(128, 3, 3); */
+  }
+  #description{
+      margin-top: 50px;
+      width: 100%px;
+      height: 250px;
+      border-radius: 8px;
+  }
+  .main{
+      display: flex;
+      width: 100%;
+     
+      
+  }
+  .main > div{
+   width: 50%;
+   
+  }
+  #left{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+      /* height: 100%; */
+  }
+  #left input textarea{
+      margin-top: 20px;
+  }
